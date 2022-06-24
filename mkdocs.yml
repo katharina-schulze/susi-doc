@@ -47,5 +47,6 @@ theme:
         name: Switch to light mode
 nav:
   - index.md
+  - Project: project/index.md
 extra:
   collapse_toc: false
