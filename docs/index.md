@@ -8,7 +8,7 @@ The project SusI has the goal to make the Open-Source-Simulationsoftware DuMu<su
 
 Deutsche Forschungs­gemeinschaft ([DFG](https://www.dfg.de/))
 <figure markdown>
-  |![DFG](/images/dfgde.jpg){: style="max-width: 100%"}|
+  |![DFG](./images/dfgde.jpg){: style="max-width: 100%"}|
   |:---:|
   |<figcaption>DFG</figcaption>|
 </figure>
