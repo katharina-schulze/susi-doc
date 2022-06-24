@@ -1,0 +1,51 @@
+site_name: SusI Documentation
+plugins:
+    - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+edit_uri: https://github.com/KatLily-74656/susi-doc/tree/master/docs
+repo_url: https://github.com/KatLily-74656/susi-doc
+repo_name: susi-doc
+copyright: Copyright &copy; Universität Stuttgart
+theme:
+  name: material
+  logo: images/unistuttgart_logo_englisch_cmyk_invertiert.png
+  favicon: images/unistuttgart_logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.sections
+      - navigation.expand
+      - navigation.indexes
+      - toc.follow
+      - navigation.top
+      - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate 
+      primary: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+nav:
+  - index.md
+extra:
+  collapse_toc: false
